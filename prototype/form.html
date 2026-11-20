@@ -1,0 +1,80 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scholarship Application | ParSU-SMART</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <aside class="sidebar">
+        <div class="logo">
+            ParSU-SMART
+            <p>Scholarship Management</p>
+        </div>
+
+        <a href="list.html">Scholarships</a>
+        <a href="#" class="active">Applications</a>
+        <a href="#">Students</a>
+        <a href="#">Requirements</a>
+        <a href="#">Documents</a>
+        <a href="#">Logout</a>
+    </aside>
+
+    <main class="main-content">
+
+        <div class="header">
+            <h1>Scholarship Application</h1>
+            <p>Fill out the form to apply for a scholarship.</p>
+        </div>
+
+        <div class="card">
+            <h2>Applicant Information</h2>
+
+            <form>
+                <label>Student ID</label>
+                <input type="text" placeholder="Enter student ID">
+
+                <label>Student Name</label>
+                <input type="text" placeholder="Enter full name">
+
+                <label>Scholarship</label>
+                <select>
+                    <option>Select a scholarship</option>
+                    <option>Academic Scholarship</option>
+                    <option>Student Assistance Scholarship</option>
+                    <option>Merit Scholarship</option>
+                </select>
+
+                <label>Academic Term</label>
+                <select>
+                    <option>Select academic term</option>
+                    <option>First Semester 2026-2027</option>
+                    <option>Second Semester 2026-2027</option>
+                </select>
+
+                <label>Contact Number</label>
+                <input type="text" placeholder="Enter contact number">
+
+                <label>Required Documents</label>
+                <input type="file">
+
+                <label>Additional Notes</label>
+                <textarea rows="4" placeholder="Enter additional information"></textarea>
+
+                <br><br>
+
+                <button type="submit">Submit Application</button>
+                <a href="list.html" class="btn secondary">Back</a>
+            </form>
+        </div>
+
+    </main>
+</div>
+
+</body>
+</html>
